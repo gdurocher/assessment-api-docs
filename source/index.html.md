@@ -129,8 +129,8 @@ curl -H "Authorization:Bearer <token>" https://www.selfmgmt.com/api/v1/assess/po
 ```json
 {
   "assessment": {
-    "link": "https://www.selfmgmt.com/pac/assess/FQQcc4sU5hll7XQO0PlQ72ZIwwcpVX8kzfb"
-    "id": "cc4sU5hll7XQO0PlQ72ZIwwcpVX8kzfb"
+    "link":"https://www.selfmgmt.com/pac/assess/FQQcc4sU5hll7XQO0PlQ72ZIwwcpVX8kzfb"
+    "id":"cc4sU5hll7XQO0PlQ72ZIwwcpVX8kzfb"
   }
 }
 ```
@@ -175,31 +175,23 @@ curl -H "Authorization:Bearer <token>"  https://www.selfmgmt.com/api/results/pop
 {
   "records": [
     {
-      "id": "B0bAoHpUM4UHvbVmPdbrlYzToMSCe5pq",
-      "date": "2016/08/16",
+      "id":"B0bAoHpUM4UHvbVmPdbrlYzToMSCe5pq",
+      "date":"2016/08/16",
       "personal": {
-        "firstname": "Sample",
-        "lastname": "Candidate",
-        "gender": "",
-        "address": "123 Main St.",
-        "city": "Toronto",
-        "state": "Ontario",
-        "zipcode": "N2T 2J8",
-        "country": "Canada",
-        "telephone": "416-555-1212",
-        "email": "sample@yahoo.com"
-      },
-      "scores": {
-        "talent": "3.0",
-        "effort": "4.0",
-        "opport": "5.0",
-        "total": "4.0",
-        "recommendation": "Proceed",
-        "stoplight": "Green"
+        "firstname":"Sample",
+        "lastname":"Candidate",
+        "gender":"",
+        "address":"123 Main St.",
+        "city":"Toronto",
+        "state":"Ontario",
+        "zipcode":"N2T 2J8",
+        "country":"Canada",
+        "telephone":"416-555-1212",
+        "email":"sample@yahoo.com"
       },
       "reports": {
-        "manager": "https://selfmgmt.com/api/v1/reports/pops/m/B0bAoHpUM4UHvbVmPdbrlYzToMSCe5pq",
-        "candidate": "https://selfmgmt.com/ api/v1/reports/pops/c/B0bAoHpUM4UHvbVmPdbrlYzToMSCe5pq"
+        "manager":"https://selfmgmt.com/api/v1/reports/pops/m/B0bAoHpUM4UHvbVmPdbrlYzToMSCe5pq",
+        "candidate":"https://selfmgmt.com/ api/v1/reports/pops/c/B0bAoHpUM4UHvbVmPdbrlYzToMSCe5pq"
       }
     }
   ]
